@@ -1,0 +1,5 @@
+@startuml
+学生 -> "el-Canpus" : ログイン
+"el-Canpus" -> 先生 : 課題の提出
+先生 --> "el-Canpus" : 課題の採点
+"el-Canpus" --> 学生 : 提出の確認

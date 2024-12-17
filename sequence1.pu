@@ -1,0 +1,5 @@
+@startuml
+A --> B:request
+B --> A:reponse
+A ->>B:async message
+@enduml

@@ -1,0 +1,5 @@
+@startuml
+Client -> Sever:データを要求
+Sever -> Database:問い合わせ
+Sever <-- Database:結果
+Client <-- Sever:データ
